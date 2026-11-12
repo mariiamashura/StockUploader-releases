@@ -1,5 +1,7 @@
 # Stock Uploader
 
+<img src="design/icon.png" width="96" align="right" alt="">
+
 [Русский](README.md) · [English](README.en.md) · **Deutsch**
 
 Ein Windows-Programm, das Fotos für den Verkauf bei Shutterstock vorbereitet: Es prüft die Dateien, zeigt Beschreibungen und Schlagwörter zum Bearbeiten, erlaubt kleine Bildkorrekturen und lädt alles zur Agentur hoch.

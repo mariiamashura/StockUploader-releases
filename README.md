@@ -1,5 +1,7 @@
 # Stock Uploader
 
+<img src="design/icon.png" width="96" align="right" alt="">
+
 **Русский** · [English](README.en.md) · [Deutsch](README.de.md)
 
 Программа для Windows, которая готовит фотографии к продаже на Shutterstock: проверяет файлы, показывает описания и ключевые слова для правки, позволяет подправить снимок и загружает всё на сток.
