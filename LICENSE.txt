@@ -1,0 +1,45 @@
+Stock Uploader
+Copyright (c) 2026 M. Mashura. Все права защищены. All rights reserved.
+
+РУССКИЙ
+
+Программа распространяется бесплатно. Разрешается:
+  - пользоваться программой бесплатно, в том числе в коммерческой работе;
+  - передавать другим людям архив программы в неизменном виде и бесплатно.
+
+Запрещается:
+  - продавать программу или включать её в платные продукты;
+  - изменять программу, декомпилировать её и распространять изменённые версии;
+  - выдавать программу за свою или удалять сведения об авторстве.
+
+Программа предоставляется «как есть», без каких-либо гарантий. Автор не отвечает за ущерб,
+связанный с её использованием, в том числе за отклонённые или заблокированные материалы
+на сторонних сервисах.
+
+ENGLISH
+
+The program is distributed free of charge. You may:
+  - use the program for free, including for commercial work;
+  - pass the unmodified program archive on to other people free of charge.
+
+You may not:
+  - sell the program or include it in paid products;
+  - modify or decompile the program, or distribute modified versions;
+  - present the program as your own or remove the authorship notices.
+
+The program is provided "as is", without warranty of any kind. The author is not liable for any
+damage arising from its use, including rejected or blocked submissions on third-party services.
+
+КОМПОНЕНТЫ ДРУГИХ АВТОРОВ / THIRD-PARTY COMPONENTS
+
+The archive includes the following components, each under its own license:
+  - Python (PSF License)
+  - Qt and PySide6 (GNU LGPL v3) — https://www.qt.io, https://pyside.org
+  - OpenCV (Apache License 2.0)
+  - NumPy (BSD 3-Clause)
+  - Pillow (MIT-CMU)
+  - keyring, qrcode and their dependencies (MIT / BSD)
+
+The terms above apply to Stock Uploader itself and do not restrict your rights to these components
+under their own licenses. Shutterstock is a trademark of Shutterstock, Inc.; this program is not
+affiliated with or endorsed by Shutterstock.
