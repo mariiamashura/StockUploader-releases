@@ -69,6 +69,7 @@ The Shutterstock login and password are entered once in Settings; the password i
 ## Documentation and terms
 
 - [User guide](docs/USER_GUIDE.md) (in Russian)
+- [Security and personal data](docs/SECURITY.md) (in Russian)
 - [Changelog](CHANGELOG.md) (in Russian)
 - [Terms of use](LICENSE.txt)
 

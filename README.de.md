@@ -69,6 +69,7 @@ Login und Passwort für Shutterstock werden einmal in den Einstellungen eingegeb
 ## Dokumentation und Bedingungen
 
 - [Benutzerhandbuch](docs/USER_GUIDE.md) (auf Russisch)
+- [Sicherheit und persönliche Daten](docs/SECURITY.md) (auf Russisch)
 - [Änderungsverlauf](CHANGELOG.md) (auf Russisch)
 - [Nutzungsbedingungen](LICENSE.txt)
 
