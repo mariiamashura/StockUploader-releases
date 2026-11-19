@@ -1,20 +1,5 @@
 Stock Uploader
-Copyright (c) 2026 M. Mashura. Все права защищены. All rights reserved.
-
-РУССКИЙ
-
-Программа распространяется бесплатно. Разрешается:
-  - пользоваться программой бесплатно, в том числе в коммерческой работе;
-  - передавать другим людям архив программы в неизменном виде и бесплатно.
-
-Запрещается:
-  - продавать программу или включать её в платные продукты;
-  - изменять программу, декомпилировать её и распространять изменённые версии;
-  - выдавать программу за свою или удалять сведения об авторстве.
-
-Программа предоставляется «как есть», без каких-либо гарантий. Автор не отвечает за ущерб,
-связанный с её использованием, в том числе за отклонённые или заблокированные материалы
-на сторонних сервисах.
+Copyright (c) 2026 M. Mashura. All rights reserved.
 
 ENGLISH
 
@@ -30,7 +15,7 @@ You may not:
 The program is provided "as is", without warranty of any kind. The author is not liable for any
 damage arising from its use, including rejected or blocked submissions on third-party services.
 
-КОМПОНЕНТЫ ДРУГИХ АВТОРОВ / THIRD-PARTY COMPONENTS
+THIRD-PARTY COMPONENTS
 
 The archive includes the following components, each under its own license:
   - Python (PSF License)

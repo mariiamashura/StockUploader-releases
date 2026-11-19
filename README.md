@@ -2,75 +2,75 @@
 
 <img src="design/icon.png" width="96" align="right" alt="">
 
-**Русский** · [English](README.en.md) · [Deutsch](README.de.md)
+**English** · [Deutsch](README.de.md) · [Українська](README.ua.md)
 
-Программа для Windows, которая готовит фотографии к продаже на Shutterstock: проверяет файлы, показывает описания и ключевые слова для правки, позволяет подправить снимок и загружает всё на сток.
+A Windows program that prepares photos for sale on Shutterstock: it checks the files, shows descriptions and keywords for editing, lets you touch up a photo and uploads everything to the stock site.
 
-![Окно программы](design/screenshot.png)
+![Program window](design/light_en.png)
 
-## О программе
+## About
 
-- **Проверка файлов.** Отсеивает снимки, которые сток не примет: меньше 4 Мп, больше 150 Мп, тяжелее 50 МБ, не JPEG.
-- **Описания и ключевые слова** тремя способами: одной кнопкой по ключу API (Anthropic, OpenAI или Google), через любого ИИ-агента с доступом к папке (Claude Code, Codex, Gemini CLI) или вручную. Ключ API необязателен: через подписку на ИИ-агента платный API не нужен.
-- **Пометки для ручной правки.** Разделы, где нужно ваше знание (вид животного, место съёмки, люди и логотипы в кадре), обведены оранжевой рамкой с подсказкой, что сделать.
-- **Редактор.** Обрезка и выравнивание горизонта, свет и цвет, заплатка и штамп для удаления логотипов и пятен. Оригиналы не изменяются.
-- **Приём снимков с телефона** по Wi-Fi через QR-код, без приложения на телефоне.
-- **Отправка.** Загрузка по FTPS с возобновлением после обрыва и готовый CSV для страницы Submit.
-- **Интерфейс** на русском, английском и немецком, тёмная и светлая темы.
+- **File check.** Filters out photos the stock site will not accept: under 4 MP, over 150 MP, heavier than 50 MB, not JPEG.
+- **Descriptions and keywords** in three ways: one click with an API key (Anthropic, OpenAI or Google), through any AI agent with access to the folder (Claude Code, Codex, Gemini CLI), or by hand. The API key is optional: with a subscription to an AI agent no paid API is needed.
+- **Marks for manual editing.** Sections that need your knowledge (animal species, shooting location, people and logos in the frame) get an orange frame with a hint on what to do.
+- **Editor.** Crop and horizon straightening, light and colour, patch and clone stamp for removing logos and spots. The originals are never changed.
+- **Receiving photos from a phone** over Wi-Fi through a QR code, with no app on the phone.
+- **Upload.** FTPS upload that resumes after a dropped connection, and a ready CSV for the Submit page.
+- **Interface** in English, German and Ukrainian, with dark and light themes.
 
-**Идея:** M. Mashura
-**Техническая реализация:** Claude (Anthropic)
+**Idea:** M. Mashura
+**Technical implementation:** Claude (Anthropic)
 
-## Установка
+## Installation
 
-1. Скачайте архив `StockUploader-0.1.0-win64.zip` со страницы [Releases](../../releases/latest).
-2. Распакуйте его в любую папку.
-3. Запустите `StockUploader.exe`.
+1. Download `StockUploader-0.1.0-win64.zip` from the [Releases](../../releases/latest) page.
+2. Unpack it into any folder.
+3. Run `StockUploader.exe`.
 
-Устанавливать ничего не нужно, Python не требуется. Программа не подписана, поэтому при первом запуске
-Windows может показать предупреждение SmartScreen — нажмите «Подробнее» → «Выполнить в любом случае».
+Nothing needs to be installed and Python is not required. The program is not signed, so on first start
+Windows may show a SmartScreen warning — click “More info” → “Run anyway”.
 
-Описания можно получить по ключу API прямо в программе (настройки → «Описания (ИИ)») или через любого
-ИИ-агента: кнопка «Скопировать просьбу для ИИ» кладёт инструкцию в папку со снимками.
+Descriptions can be obtained with an API key right in the program (Settings → “Descriptions (AI)”) or through
+any AI agent: the “Copy request for AI” button puts the instructions into the photo folder.
 
-## Краткая инструкция
+## Quick guide
 
-1. **Откройте папку** с фотографиями (JPEG). Слишком маленькие или тяжёлые файлы попадут в «Отклонены».
-2. **Снимки с телефона.** Нажмите «С телефона», наведите камеру телефона на QR-код и выберите снимки на открывшейся странице. Телефон и компьютер должны быть в одной сети Wi-Fi; при первом запуске Windows спросит разрешение на доступ к сети — разрешите. Снимки сохраняются в `Изображения\StockUploader\Phone`, в подпапку с сегодняшней датой, и программа сразу её открывает. Другую папку можно выбрать в настройках.
-3. **Подправьте снимки**, если нужно: обрезка и горизонт, свет и цвет, заплатка и штамп. У каждого инструмента есть «Применить» и «Отмена».
-4. **Впишите контекст** внизу слева — место, событие, название вида (по-английски). Этого по снимку узнать нельзя.
-5. **Получите описания.** Три способа. Кнопка «Описать по ключу API» — программа сама отправляет превью выбранному поставщику (ключ вводится в настройках, вкладка «Описания (ИИ)»; это платно, оплата идёт с вашего аккаунта у поставщика). Кнопка «Скопировать просьбу для ИИ» — программа кладёт в папку со снимками инструкцию, а скопированную просьбу вы вставляете любому ИИ-агенту, который видит эту папку и умеет смотреть изображения. Или впишите описания вручную. Снимки сами перейдут в «Готовы» или «Требуют внимания».
-6. **Разберите помеченные.** Раздел с оранжевой рамкой нужно поправить или нажать «Оставить как есть». Клавиша **N** — следующий помеченный снимок.
-7. **Отправьте.** Кнопка «Отправить на Shutterstock» загрузит готовые снимки и создаст файл CSV.
-8. **Завершите на сайте.** На странице Submit нажмите CSV, выберите созданный файл, выделите снимки и нажмите Submit.
+1. **Open a folder** with photos (JPEG). Files that are too small or too heavy go to “Rejected”.
+2. **Photos from a phone.** Click “From phone”, point the phone camera at the QR code and choose photos on the page that opens. The phone and the computer must be on the same Wi-Fi network; on first use Windows asks for network access — allow it. The photos are saved to `Pictures\StockUploader\Phone`, in a subfolder named by today's date, and the program opens it right away. You can choose another folder in Settings.
+3. **Touch up the photos** if needed: crop and horizon, light and colour, patch and clone stamp. Every tool has “Apply” and “Cancel”.
+4. **Type the context** at the bottom left — place, event, species name (in English). This cannot be known from the picture.
+5. **Get the descriptions.** Three ways. The “Describe with API key” button — the program sends reduced copies to the chosen provider itself (enter the key in Settings, “Descriptions (AI)” tab; this costs money, billed through your account with the provider). The “Copy request for AI” button — the program puts instructions into the photo folder, and you paste the copied request to any AI agent that can see that folder and look at images. Or type the descriptions by hand. The photos move to “Ready” or “Need attention” on their own.
+6. **Go through the marked ones.** A section with an orange frame needs editing, or click “Keep as is”. Press **N** for the next marked photo.
+7. **Upload.** “Upload to Shutterstock” sends the ready photos and creates a CSV file.
+8. **Finish on the website.** On the Submit page click CSV, choose the created file, select the photos and click Submit.
 
-Логин и пароль Shutterstock вводятся один раз в настройках; пароль хранится в диспетчере учётных данных Windows. Все правки сохраняются сами.
+The Shutterstock login and password are entered once in Settings; the password is kept in Windows Credential Manager. All edits are saved automatically.
 
-## Где что лежит
+## Where things are
 
-| Что | Где |
+| What | Where |
 |---|---|
-| Отредактированные версии снимков | подпапка `_edited` в папке со снимками |
-| Копии для загрузки и CSV | подпапка `_shutterstock` |
-| Описания от ИИ | файл `_metadata.jsonl` |
-| Инструкция для ИИ-агента | файл `_AI_INSTRUCTIONS.md` в папке со снимками |
-| Снимки с телефона | `Изображения\StockUploader\Phone\ГГГГ-ММ-ДД` |
-| Настройки | `%APPDATA%\StockUploader\config.json` |
-| Ваши правки, журнал | `%LOCALAPPDATA%\StockUploader` |
-| Список категорий и запрещённых слов | `categories.txt`, `blocklist.txt` рядом с программой |
+| Edited versions of photos | `_edited` subfolder in the photo folder |
+| Copies for upload and the CSV | `_shutterstock` subfolder |
+| Descriptions from AI | `_metadata.jsonl` file |
+| Instructions for an AI agent | `_AI_INSTRUCTIONS.md` file in the photo folder |
+| Photos from a phone | `Pictures\StockUploader\Phone\YYYY-MM-DD` |
+| Settings | `%APPDATA%\StockUploader\config.json` |
+| Your edits, log | `%LOCALAPPDATA%\StockUploader` |
+| Category list and blocked words | `categories.txt`, `blocklist.txt` next to the program |
 
-## Ограничения
+## Limitations
 
-- Только JPEG; видео, вектор, RAW и HEIC не поддерживаются.
-- Последний шаг — загрузка CSV и кнопка Submit — делается на сайте вручную: у Shutterstock нет способа сделать это программно.
-- Описания составляет ИИ: по вашему ключу API (платно, у поставщика) или внешний ИИ-агент; сама программа ничего не придумывает. Работа с ключами API проверена на подставных ответах, но не на настоящих серверах поставщиков; качество описаний разных моделей не сравнивалось. Работа с конкретными ИИ-агентами не проверялась.
-- ExifTool не входит в комплект. Без него описания и ключевые слова попадают на сток через CSV, чего достаточно; запись их в сами файлы включится, если положить `exiftool.exe` рядом с программой.
+- JPEG only; video, vector, RAW and HEIC are not supported.
+- The last step — uploading the CSV and clicking Submit — is done by hand on the website: Shutterstock offers no way to do it programmatically.
+- Descriptions are written by an AI: through your own API key (paid, with the provider) or an external AI agent; the program invents nothing itself. API-key support was tested on stand-in answers, not on the providers' real servers; the quality of different models' descriptions has not been compared. Work with specific AI agents has not been tested.
+- ExifTool is not included. Without it, descriptions and keywords reach the stock site through the CSV, which is enough; writing them into the files themselves turns on if you put `exiftool.exe` next to the program.
 
-## Документация и условия
+## Documentation and terms
 
-- [Руководство пользователя](docs/USER_GUIDE.md)
-- [Безопасность и личные данные](docs/SECURITY.md)
-- [История изменений](CHANGELOG.md)
-- [Условия использования](LICENSE.txt)
+- [User guide](docs/USER_GUIDE.md) (in Ukrainian)
+- [Security and personal data](docs/SECURITY.md) (in Ukrainian)
+- [Changelog](CHANGELOG.md) (in Ukrainian)
+- [Terms of use](LICENSE.txt)
 
-Программа бесплатна. Исходный код не публикуется.
+The program is free. The source code is not published.

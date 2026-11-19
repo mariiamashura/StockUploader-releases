@@ -2,11 +2,11 @@
 
 <img src="design/icon.png" width="96" align="right" alt="">
 
-[Русский](README.md) · [English](README.en.md) · **Deutsch**
+[English](README.md) · **Deutsch** · [Українська](README.ua.md)
 
 Ein Windows-Programm, das Fotos für den Verkauf bei Shutterstock vorbereitet: Es prüft die Dateien, zeigt Beschreibungen und Schlagwörter zum Bearbeiten, erlaubt kleine Bildkorrekturen und lädt alles zur Agentur hoch.
 
-![Programmfenster](design/screenshot.png)
+![Programmfenster](design/light_en.png)
 
 ## Über das Programm
 
@@ -16,7 +16,7 @@ Ein Windows-Programm, das Fotos für den Verkauf bei Shutterstock vorbereitet: E
 - **Editor.** Zuschnitt und Horizont, Licht und Farbe, Reparatur und Stempel zum Entfernen von Logos und Flecken. Die Originale bleiben unverändert.
 - **Fotos vom Handy empfangen** über WLAN per QR-Code, ohne App auf dem Handy.
 - **Upload.** FTPS-Upload, der nach einem Verbindungsabbruch fortgesetzt wird, und eine fertige CSV-Datei für die Submit-Seite.
-- **Oberfläche** auf Russisch, Englisch und Deutsch, dunkles und helles Design.
+- **Oberfläche** auf Englisch, Deutsch und Ukrainisch, dunkles und helles Design.
 
 **Idee:** M. Mashura
 **Technische Umsetzung:** Claude (Anthropic)
@@ -68,9 +68,9 @@ Login und Passwort für Shutterstock werden einmal in den Einstellungen eingegeb
 
 ## Dokumentation und Bedingungen
 
-- [Benutzerhandbuch](docs/USER_GUIDE.md) (auf Russisch)
-- [Sicherheit und persönliche Daten](docs/SECURITY.md) (auf Russisch)
-- [Änderungsverlauf](CHANGELOG.md) (auf Russisch)
+- [Benutzerhandbuch](docs/USER_GUIDE.md) (auf Ukrainisch)
+- [Sicherheit und persönliche Daten](docs/SECURITY.md) (auf Ukrainisch)
+- [Änderungsverlauf](CHANGELOG.md) (auf Ukrainisch)
 - [Nutzungsbedingungen](LICENSE.txt)
 
 Das Programm ist kostenlos. Der Quelltext wird nicht veröffentlicht.
