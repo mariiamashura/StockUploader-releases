@@ -6,7 +6,7 @@
 
 A Windows program that prepares photos for sale on Shutterstock: it checks the files, shows descriptions and keywords for editing, lets you touch up a photo and uploads everything to the stock site.
 
-![Program window](design/light_en.png)
+![Program window](design/dark_en.png)
 
 ## About
 
