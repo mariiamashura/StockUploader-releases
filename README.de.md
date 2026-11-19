@@ -6,7 +6,7 @@
 
 Ein Windows-Programm, das Fotos für den Verkauf bei Shutterstock vorbereitet: Es prüft die Dateien, zeigt Beschreibungen und Schlagwörter zum Bearbeiten, erlaubt kleine Bildkorrekturen und lädt alles zur Agentur hoch.
 
-![Programmfenster](design/dark_en.png)
+![Programmfenster](design/light_en.png)
 
 ## Über das Programm
 
