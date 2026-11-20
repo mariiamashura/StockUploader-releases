@@ -18,7 +18,7 @@ A Windows program that prepares photos for sale on Shutterstock: it checks the f
 - **Upload.** FTPS upload that resumes after a dropped connection, and a ready CSV for the Submit page.
 - **Interface** in English, German and Ukrainian, with dark and light themes.
 
-**Idea:** M. Mashura
+**Idea:** Mariia Mashura
 **Technical implementation:** Claude (Anthropic)
 
 ## Installation

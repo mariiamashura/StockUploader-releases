@@ -18,7 +18,7 @@ Ein Windows-Programm, das Fotos für den Verkauf bei Shutterstock vorbereitet: E
 - **Upload.** FTPS-Upload, der nach einem Verbindungsabbruch fortgesetzt wird, und eine fertige CSV-Datei für die Submit-Seite.
 - **Oberfläche** auf Englisch, Deutsch und Ukrainisch, dunkles und helles Design.
 
-**Idee:** M. Mashura
+**Idee:** Mariia Mashura
 **Technische Umsetzung:** Claude (Anthropic)
 
 ## Installation
