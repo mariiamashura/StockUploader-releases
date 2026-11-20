@@ -71,6 +71,11 @@ Login und Passwort für Shutterstock werden einmal in den Einstellungen eingegeb
 - [Benutzerhandbuch](docs/USER_GUIDE.md) (auf Ukrainisch)
 - [Sicherheit und persönliche Daten](docs/SECURITY.md) (auf Ukrainisch)
 - [Änderungsverlauf](CHANGELOG.md) (auf Ukrainisch)
-- [Nutzungsbedingungen](LICENSE.txt)
+- [Lizenz](LICENSE.txt)
 
-Das Programm ist kostenlos. Der Quelltext wird nicht veröffentlicht.
+## Lizenz
+
+Proprietär, keine Open Source; der Quelltext wird nicht veröffentlicht. Sie dürfen die unveränderte Release-
+Version kostenlos herunterladen und ausführen, auch für kommerzielle Arbeit; Kopieren, Weitergeben, Verkaufen,
+Dekompilieren und abgeleitete Werke bedürfen der schriftlichen Erlaubnis des Autors. Volltext (Englisch):
+[LICENSE.txt](LICENSE.txt). Kontakt: zuntuf@proton.me

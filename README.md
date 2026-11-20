@@ -71,6 +71,11 @@ The Shutterstock login and password are entered once in Settings; the password i
 - [User guide](docs/USER_GUIDE.md) (in Ukrainian)
 - [Security and personal data](docs/SECURITY.md) (in Ukrainian)
 - [Changelog](CHANGELOG.md) (in Ukrainian)
-- [Terms of use](LICENSE.txt)
+- [License](LICENSE.txt)
 
-The program is free. The source code is not published.
+## License
+
+Proprietary, not open source; the source code is not published. You may download and run the unmodified
+release for free, including for commercial work; copying, redistributing, selling, decompiling and making
+derivative works require the author's written permission. Full text: [LICENSE.txt](LICENSE.txt). Contact:
+zuntuf@proton.me

@@ -23,7 +23,7 @@ respective owners:
   - OpenCV (Apache License 2.0)
   - NumPy (BSD 3-Clause)
   - Pillow (MIT-CMU)
-  - keyring, qrcode and their dependencies (MIT / BSD)
+  - Anthropic Python SDK, keyring, qrcode and their dependencies (MIT / BSD)
 Nothing in this license grants you any rights to those third-party components beyond what
 their own licenses allow; and nothing in this license overrides the obligations those
 third-party licenses place on this project.
